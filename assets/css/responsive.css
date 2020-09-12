@@ -1,0 +1,925 @@
+
+
+/*==============
+    Bootstrap customization for Responsive
+========================*/
+nav.navbar.navbar-expand-lg.main-manu{
+    padding: 0;
+}
+.main-manu ul.navbar-nav{
+    margin-left: auto;
+}
+@media ( max-width: 991px ) {
+    
+	/*-------------navbar responsive css--------------------*/
+	nav.main-manu ul li {
+		margin-left: 20px;
+	}
+	nav.main-manu ul li a{
+		font-size: 10px;
+	}
+	.navbar-expand-md .navbar-nav .dropdown-menu {
+		position: absolute;
+		content: '';
+		left: -46%;
+		top: 100%;
+		max-width: 74%;
+		margin: 0 -20px;
+		border: none;
+		background: transparent;
+	}
+	nav.main-manu ul li .dropdown-menu .dropdown-item {
+		padding: 5px 0;
+		background:#d74349;
+		margin: 2px 0;
+		color: #fff;
+		max-width: 70%;
+		font-size: 13px;
+		border-radius: 0;
+	}
+	nav.main-manu ul li .dropdown-menu .dropdown-item:hover{
+		padding: 5px 0;
+		background:#000 !important;
+		color: #d74349 !important;
+		transition: .8s;
+	}
+/*-------------bannar responsive css----------------*/
+
+	.content-box-text h1 {
+		font-size: 34px;
+	}
+	.content-box-text h1 span {
+		font-size: 34px;
+	}
+	.content-box-text p {
+		font-size: 11px;
+		margin: 2% 6% 0% 6%;
+	}
+	.content-box-text .slider-para {
+		text-transform: uppercase;
+		font-size: 12px;
+		margin: 2% 6% 0% 6%;
+	}
+/*-------------about responsive css-------------------*/
+	#about .about-text h2 {
+		font-size: 24px;
+	}
+	#about .about-text h2 span{
+		font-size: 24px;
+	}
+	#about .about-right h3 {
+		font-size: 20px;
+	}
+	#about .about-right p span {
+		font-size: 13px;
+		font-weight: 700;
+	}
+	#about .about-right p {
+		font-size: 11px;
+		line-height: 24px;
+		margin-top: 18px; 
+	}
+	#about .about-right button.btn.btn-success {
+		padding: 2px 9px;
+		margin-top: 12px;
+	}
+	#about .about-right button.btn.btn-success a {
+		font-size: 12px;
+		font-weight: 600;
+	}
+/*-------------video responsive css--------------------*/
+	.video-area .video-text h2 {
+		font-size: 27px;
+	}
+	.video-area .video-icon a {
+		font-size: 30px;
+		width: 66px;
+		height: 66px;
+		line-height: 63px;
+		margin-top: 24px;
+	}
+
+
+	
+
+/*-------------service responsive css--------------------*/
+	.our-service .our-service-content-box {
+		padding: 18px 20px;
+	}
+	.our-service .our-service-title h2 span {
+		font-size: 25px;
+	}
+	.our-service .our-service-content-box .service-icon-hover {
+		font-size: 20px;
+		width: 50px;
+		height: 50px;
+		padding: 9px 0;
+	}
+	.our-service .our-service-content-box h4 {
+		font-size: 12px;
+		margin: 10px 0;
+	}
+	.our-service .our-service-content-box p {
+		font-size: 11px;
+		padding: 0;
+		line-height: 14px;
+	}
+	.our-service .our-service-content-box .service-item-more{
+		font-size: 11px;
+	}
+
+/*-------------More service responsive css--------------------*/
+	.more-service .more-service-left-content h2{
+		font-size: 21px;
+	}
+	.more-service .more-service-left-content h2 span {
+		font-size: 21px;
+	}
+	
+	.more-service .more-service-right-btn {
+		margin-top: 6px;
+	}
+	.more-service .more-service-right-btn a{
+		font-size: 13px;
+		padding: 6px 42px;
+	}
+	/*-------------Ticket service responsive css--------------------*/
+	.ticket .ticket-title h2{
+		font-size: 25px;
+	}
+	.ticket .ticket-title h2 span{
+		font-size: 25px;
+	}
+	.ticket .ticket-content h3{
+		font-size: 16px;
+	}
+	.ticket .ticket-content p{
+		font-size: 12px;
+	}
+/*-------------Umrah service responsive css--------------------*/
+	.umrah .umrah-title h2{
+		font-size: 25px;
+	}
+	.umrah .umrah-title h2 span{
+		font-size: 25px;
+	}
+	.umrah .umrah-item {
+		margin: 20px 0;
+	}
+	.umrah .umrah-item h3{
+		font-size: 12px;
+	}
+/*-------------hotel service responsive css--------------------*/
+	.hotel .hotel-title h2{
+		font-size: 25px;
+	}
+	.hotel .hotel-title h2 span{
+		font-size: 25px;
+	}
+	.hotel .hotel-item h4 {
+		font-size: 16px;
+	}
+	.hotel .hotel-item .hotel-country {
+		font-size: 12px;
+	}
+	.hotel .hotel-item .hotel-city{
+		font-size: 12px;
+	}
+	.hotel .hotel-item .hotel-text{
+		font-size: 12px;
+	}
+	/*-------------tour service responsive css--------------------*/
+	.tour .tour-title h2{
+		font-size: 25px;
+	}
+	.tour .tour-title h2 span{
+		font-size: 25px;
+	}
+	.tour .tour-item h4 {
+		font-size: 16px;
+	}
+	.tour .tour-item .tour-country {
+		font-size: 12px;
+	}
+	.tour .tour-item a{
+		font-size: 12px;
+		padding: 2px 20px;
+	}
+	 /*---------------visa service Css-----------------*/
+	.visa .visa-title h2{
+		font-size: 25px;
+	}
+	.visa .visa-title h2 span{
+		font-size: 25px;
+	}
+	.visa .visa-content h3{
+		font-size: 18px;
+	}
+	.visa .visa-content p{
+		font-size: 12px;
+	}
+	.visa .visa-content p span{
+		font-size: 12px;
+	}
+	.visa .visa-table table th{
+		font-size: 14px;
+	}
+	.visa .visa-table table td{
+		font-size: 12px;
+	}
+
+/*-------------counter responsive css--------------------*/
+	.counter .counter-box p i {
+		font-size: 17px;
+		width: 46px;
+		height: 46px;
+		line-height: 44px;
+		margin-bottom: 11px;
+	}
+	.counter .counter-box .counter-number {
+		font-size: 22px;
+	}
+	.counter .counter-box .counter-name {
+		font-size: 17px;
+	}
+
+
+/*-------------portfolio responsive css--------------------*/
+	.portfolio .portfolio-title h2 {
+		font-size: 25px;
+	}
+	.portfolio .portfolio-title h2 span {
+		font-size: 25px;
+	}
+	
+
+/*-------------team responsive css--------------------*/
+	.team .team-title h2{
+		font-size: 25px;
+	}
+	.team .team-title h2 span{
+		font-size: 25px;
+}
+
+
+/*-------------contact responsive css--------------------*/
+	.contact .form-title h2{
+		font-size: 25px;
+	}
+	.contact .contact-left-content h3{
+		font-size: 16px;
+	}
+	.contact .contact-left-content p {
+		font-size: 11px;
+		line-height: 22px;
+		margin: 16px 0 12px 0;
+	}
+	.contact .contact-left-content ul li span{
+		font-size: 11px;
+	}
+	.contact .contact-middle-content h3 {
+		font-size: 16px;
+	}
+	.contact .contact-middle-content .contact-middle-content-links {
+		margin-top: 13px;
+	}
+	.contact .contact-middle-content .contact-middle-content-links a{
+		font-size: 11px;
+	}
+	.contact .contact-right-content h3 {
+		font-size: 16px;
+	}
+	.contact .contact-right-content p {
+		font-size: 11px;
+		line-height: 22px;
+		margin-top: 16px;
+	}
+	.contact .contact-right-content .contact-right-content-form input {
+		margin: 10px 0 8px 0;
+	}
+	.contact .contact-right-content a {
+		font-size: 11px;
+		padding: 8px 30px;
+	}
+
+	/*-------------footer responsive css--------------------*/
+
+	.footer .footer-left-area ul li a {
+		font-size: 9px;
+		padding-top: 7px;
+	}
+	.footer .footer-right-area p {
+		font-size: 10px;
+		margin-top: 8px;
+	}
+}
+
+
+
+
+@media (max-width: 767px){
+	nav.navbar.navbar-expand-lg.main-manu button.navbar-toggler.collapsed{
+        border: 1px solid #d74349 !important;
+    }
+    
+    nav.navbar.navbar-expand-lg.main-manu button.navbar-toggler.collapsed i.fa.fa-bars{
+        color: #d74349 !important;
+    }
+    
+    button.navbar-toggler.mixitup-control-active{
+        color: #d74349;
+    }
+    nav.navbar.navbar-expand-lg.main-manu div#navbarNav ul {
+        background: transparent;
+    }
+    
+    nav.navbar.navbar-expand-lg.main-manu div#navbarNav ul li {
+		margin: 0 auto;
+    }
+    
+    nav.navbar.navbar-expand-lg.main-manu div#navbarNav ul li a {
+		padding: 10px 10px;
+	}
+	nav.main-manu ul li {
+		margin: 3px 0;
+		text-align: center;
+		background: #D74349;
+		border-radius: 0;
+	}
+	nav.main-manu ul li:hover{
+		background: #000;
+		transition: .8s;
+	}
+	nav.main-manu ul li a {
+		font-size: 10px;
+		color: #fff;
+		padding: 7px 15px;
+	}
+	nav.main-manu ul li a:hover {
+		color: #D74349;	
+		transition: .8s;
+	}
+	.navbar-expand-md .navbar-nav .dropdown-menu {
+		left: -130%;
+		top: 89%;
+	}
+	nav.main-manu ul li .dropdown-menu .dropdown-item {
+		padding: 3px 0;
+		background: #D74349;
+		margin: 4px 0;
+		max-width: 50%;
+		font-size: 11px;
+		border-radius: 0;
+	}
+	nav.main-manu ul li .dropdown-menu .dropdown-item:hover{
+		background: #000 !important;
+		color: #D74349 !important;
+		transition: .8s;
+	}
+	nav.main-manu ul li .dropdown-menu .dropdown-item:first-child{
+		margin-top: 0;
+	}
+	nav.main-manu ul li .dropdown-menu .dropdown-item:last-child{
+		margin-bottom: 0;
+	}
+
+	/*-------------bannar responsive css----------------*/
+	.content-box-text h1 {
+		font-size: 22px;
+	}
+	.content-box-text h1 span {
+		font-size: 22px;
+	}
+	
+	.content-box-text p {
+		font-size: 10px;
+		margin: 2% 6% 0% 6%;
+	}
+	.content-box-text .slider-para {
+		font-size: 11px;
+		margin: 2% 5% 0% 5%;
+	}
+
+
+
+	/*-------------about responsive css--------------------*/
+	#about .about-text h2 {
+		font-size: 22px;
+	}
+	#about .about-text h2 span{
+		font-size: 22px;
+	}
+	#about .about-right h3 {
+		margin-top: 50px;
+	}
+
+
+/*-------------video responsive css--------------------*/
+
+	.video-area .video-text h2 {
+		font-size: 25px;
+	}
+	.video-area .video-icon a {
+		font-size: 26px;
+		width: 58px;
+		height: 58px;
+		line-height: 54px;
+	}
+
+
+/*-------------service responsive css--------------------*/
+	.our-service .our-service-content-box{
+		margin-bottom: 25px;
+	}
+	.our-service .our-service-title h2 {
+		font-size: 22px;
+	}
+	.our-service .our-service-title h2 span {
+		font-size: 22px;
+	}
+
+/*-------------more service responsive css--------------------*/
+	.more-service .more-service-left-content h2 {
+		font-size: 16px;
+	}
+	.more-service .more-service-left-content h2 span {
+		font-size: 16px;
+	}
+	.more-service .more-service-right-btn {
+		margin-top: 6px;
+	}
+	.more-service .more-service-right-btn a {
+		font-size: 11px;
+		padding: 5px 30px;
+	}
+	
+	/*-------------Ticket service responsive css--------------------*/
+	.ticket .ticket-title h2{
+		font-size: 22px;
+	}
+	.ticket .ticket-title h2 span{
+		font-size: 22px;
+	}
+	.ticket .ticket-content h3{
+		font-size: 14px;
+	}
+	.ticket .ticket-content p{
+		font-size: 10px;
+	}
+	/*-------------Umrah service responsive css--------------------*/
+	.umrah .umrah-title h2{
+		font-size: 22px;
+	}
+	.umrah .umrah-title h2 span{
+		font-size: 22px;
+	}
+	.umrah .umrah-item {
+		margin: 20px 0;
+	}
+	.umrah .umrah-item h3{
+		font-size: 15px;
+	}
+	
+	 /*---------------visa service Css-----------------*/
+	 .visa .visa-title h2{
+		font-size: 22px;
+	}
+	.visa .visa-title h2 span{
+		font-size: 22px;
+	}
+	.visa .visa-content h3{
+		font-size: 16px;
+	}
+	.visa .visa-content p{
+		font-size: 12px;
+	}
+	.visa .visa-content p span{
+		font-size: 12px;
+	}
+	.visa .visa-table table th{
+		font-size: 13px;
+	}
+	.visa .visa-table table td{
+		font-size: 11px;
+	}
+	/*-------------hotel service responsive css--------------------*/
+	.hotel .hotel-title h2{
+		font-size: 22px;
+	}
+	.hotel .hotel-title h2 span{
+		font-size: 22px;
+	}
+	.hotel .hotel-item h4 {
+		font-size: 14px;
+	}
+	.hotel .hotel-item .hotel-country {
+		font-size: 11px;
+	}
+	.hotel .hotel-item .hotel-city{
+		font-size: 11px;
+	}
+	.hotel .hotel-item .hotel-text{
+		font-size: 11px;
+	}
+	/*-------------tour service responsive css--------------------*/
+	.tour .tour-title h2{
+		font-size: 22px;
+	}
+	.tour .tour-title h2 span{
+		font-size: 22px;
+	}
+	.tour .tour-item h4 {
+		font-size: 14px;
+	}
+	.tour .tour-item .tour-country {
+		font-size: 11px;
+	}
+	.tour .tour-item a{
+		font-size: 11px;
+		padding: 3px 21px;
+	}
+
+
+	/*-------Counter Responsive Css-----------*/
+	.counter .counter-box {
+		margin: 15px 0;
+	}
+	.counter .counter-box p i {
+		font-size: 13px;
+		width: 40px;
+		height: 40px;
+		line-height: 41px;
+		margin-bottom: 9px;
+	}
+	.counter .counter-box .counter-number {
+		font-size: 17px;
+	}
+	.counter .counter-box .counter-name {
+		font-size: 14px;
+	}
+
+/*-------------portfolio responsive css--------------------*/
+	.portfolio .portfolio-title h2 {
+		font-size: 22px;
+	}
+	.portfolio .portfolio-title h2 span {
+		font-size: 22px;
+	}
+	.portfolio .portfolio-box .portfolio-item {
+		text-align: center;
+	}
+	.portfolio .portfolio-box .portfolio-item img {
+		width: 100%;
+	}
+	.portfolio .portfolio-box .portfolio-item {
+		padding-left: 15px;
+    	padding-right: 15px;
+	}
+
+
+/*-------------team responsive css--------------------*/
+	.team .team-title h2{
+		font-size: 18px;
+	}
+	.team .team-title h2 span{
+		font-size: 18px;
+	}
+
+	/*-------------contact responsive css--------------------*/
+	.contact .form-title h2{
+		font-size: 22px;
+	}
+	.contact .contact-left-content h3{
+		font-size: 11px;
+	}
+	.contact .contact-left-content p {
+		font-size: 11px;
+		line-height: 18px;
+		margin: 16px 0 12px 0;
+	}
+	.contact .contact-left-content ul li span{
+		font-size: 9px;
+	}
+	.contact .contact-middle-content h3 {
+		font-size: 11px;
+	}
+	.contact .contact-middle-content .contact-middle-content-links {
+		margin-top: 13px;
+	}
+	.contact .contact-middle-content .contact-middle-content-links a{
+		font-size: 9px;
+	}
+	.contact .contact-right-content h3 {
+		font-size: 11px;
+	}
+	.contact .contact-right-content p {
+		font-size: 9px;
+		line-height: 18px;
+		margin-top: 16px;
+	}
+	.contact .contact-right-content .contact-right-content-form input {
+		margin: 10px 0 8px 0;
+	}
+	.contact .contact-right-content a {
+		font-size: 11px;
+		padding: 8px 30px;
+	}
+
+}
+
+
+
+@media (max-width: 576px){
+	nav.navbar.navbar-expand-lg.main-manu button.navbar-toggler.collapsed{
+        border: 1px solid #d74349 !important;
+    }
+    
+    nav.navbar.navbar-expand-lg.main-manu button.navbar-toggler.collapsed i.fa.fa-bars{
+        color: #d74349 !important;
+    }
+    
+    button.navbar-toggler.mixitup-control-active{
+        color: #d74349;
+    }
+    nav.navbar.navbar-expand-lg.main-manu div#navbarNav ul {
+        background: transparent;
+    }
+    
+    nav.navbar.navbar-expand-lg.main-manu div#navbarNav ul li {
+		margin: 0 auto;
+    }
+    
+    nav.navbar.navbar-expand-lg.main-manu div#navbarNav ul li a {
+		padding: 10px 10px;
+	}
+	nav.main-manu ul li {
+		margin: 2px 0;
+		text-align: center;
+		background: #D74349;
+		border-radius: 0;
+	}
+	nav.main-manu ul li:hover{
+		background: #000;
+		transition: .8s;
+	}
+	nav.main-manu ul li a {
+		font-size: 9px;
+		color: #fff;
+		padding: 5px 13px;
+	}
+	nav.main-manu ul li a:hover {
+		color: #D74349;	
+		transition: .8s;
+	}
+	.navbar-expand-md .navbar-nav .dropdown-menu {
+		left: -150%;
+    	top: 78%;
+	}
+	nav.main-manu ul li .dropdown-menu .dropdown-item:hover{
+		color: #D74349 !important;
+		background: #000 !important;
+		transition: .8s;
+	}
+	nav.main-manu ul li .dropdown-menu .dropdown-item {
+		padding: 2px 0;
+		background: #D74349;
+		margin: 2px 0;
+		max-width: 50%;
+		font-size: 10px;
+		border-radius: 0;
+	}
+	nav.main-manu ul li .dropdown-menu .dropdown-item:first-child{
+		margin-top: 0;
+	}
+	nav.main-manu ul li .dropdown-menu .dropdown-item:last-child{
+		margin-bottom: 0;
+	}
+
+	/*-------------bannar responsive css----------------*/
+	.content-box-text h1 {
+		font-size: 15px;
+	}
+	.content-box-text h1 span {
+		font-size: 15px;
+	}
+	
+	.content-box-text p {
+		font-size: 9px;
+		margin: 2% 6% 0% 6%;
+	}
+	.content-box-text .slider-para {
+		font-size: 10px;
+		margin: 2% 5% 0% 5%;
+	}
+	/*-------------about responsive css--------------------*/
+
+	#about .about-text h2 {
+		font-size: 16px;
+	}
+	#about .about-text h2 span{
+		font-size: 16px;
+	}
+
+	/*-------------service responsive css--------------------*/
+
+	.our-service .our-service-title h2 {
+		font-size: 15px;
+	}
+	.our-service .our-service-title h2 span{
+		font-size: 15px;
+	}
+
+	.our-service{
+		padding-right: 59px;
+		padding-left: 60px;
+	}
+	/*-------------More service responsive css--------------------*/
+	.more-service .more-service-left-content{
+		margin: 10px 0 15px 0;
+		text-align: center;
+	}
+	.more-service .more-service-left-content h2{
+		font-size: 14px;
+	}
+	.more-service .more-service-left-content h2 span {
+		font-size: 14px;
+	}
+	
+	.more-service .more-service-right-btn {
+		float: none;
+    	text-align: center;
+	}
+	.more-service .more-service-right-btn a{
+		font-size: 10px;
+		padding: 6px 42px;
+	}
+	/*-------------Ticket service responsive css--------------------*/
+	.ticket .ticket-title h2{
+		font-size: 16px;
+	}
+	.ticket .ticket-title h2 span{
+		font-size: 16px;
+	}
+	.ticket .ticket-content h3{
+		font-size: 14px;
+	}
+	.ticket .ticket-content p{
+		font-size: 10px;
+	}
+
+	/*-------------Umrah service responsive css--------------------*/
+	.umrah .umrah-title h2{
+		font-size: 16px;
+	}
+	.umrah .umrah-title h2 span{
+		font-size: 16px;
+	}
+	
+	 /*---------------visa service Css-----------------*/
+	 .visa .visa-title h2{
+		font-size: 22px;
+	}
+	.visa .visa-title h2 span{
+		font-size: 22px;
+	}
+	.visa .visa-content h3{
+		font-size: 16px;
+	}
+	.visa .visa-content p{
+		font-size: 12px;
+	}
+	.visa .visa-content p span{
+		font-size: 12px;
+	}
+	.visa .visa-table table th{
+		font-size: 13px;
+	}
+	.visa .visa-table table td{
+		font-size: 11px;
+	}
+	/*-------------hotel service responsive css--------------------*/
+	.hotel .hotel-title h2{
+		font-size: 16px;
+	}
+	.hotel .hotel-title h2 span{
+		font-size: 16px;
+	}
+	.hotel .hotel-item {
+		margin: 15px 25px;
+	}
+	
+	/*-------------tour service responsive css--------------------*/
+	.tour .tour-title h2{
+		font-size: 16px;
+	}
+	.tour .tour-title h2 span{
+		font-size: 16px;
+	}
+	.tour .tour-item{
+		margin: 5% 15%;
+	}
+	.tour .tour-item h4 {
+		font-size: 14px;
+	}
+	.tour .tour-item .tour-country {
+		font-size: 11px;
+	}
+	.tour .tour-item a{
+		font-size: 11px;
+		padding: 3px 21px;
+	}
+	/*-------------portfolio responsive css--------------------*/
+	.portfolio .portfolio-title h2{
+		font-size: 15px;
+	}
+	.portfolio .portfolio-title h2 span{
+		font-size: 15px;
+	}
+	.portfolio .portfolio-box .portfolio-item {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	/*-------------team responsive css--------------------*/
+	.team .team-title h2{
+		font-size: 15px;
+	}
+	.team .team-title h2 span{
+		font-size: 15px;
+	}
+
+	/*-------------contact responsive css--------------------*/
+	.contact .form-title h2{
+		font-size: 15px;
+	}
+	.contact .contact-left-content{
+		text-align: center;
+		margin-bottom: 60px;
+	}
+	.contact .contact-left-content h3{
+		font-size: 15px;
+	}
+	.contact .contact-left-content p {
+		font-size: 10px;
+		line-height: 21px;
+		margin: 16px 22% 12px 22%;
+	}
+	.contact .contact-left-content ul li span{
+		font-size: 10px;
+	}
+	.contact .contact-middle-content{
+		text-align: center;
+		margin: 30px 0 30px 0;
+	}
+	.contact .contact-middle-content h3 {
+		font-size: 15px;
+	}
+	.contact .contact-middle-content .contact-middle-content-links {
+		margin-top: 13px;
+	}
+	.contact .contact-middle-content .contact-middle-content-links a{
+		font-size: 10px;
+	}
+	.contact .contact-right-content{
+		text-align: center;
+		margin: 30px 0 30px 0;
+	}
+	.contact .contact-right-content h3 {
+		font-size: 15px;
+	}
+	.contact .contact-right-content p {
+		font-size: 10px;
+		line-height: 21px;
+		margin: 16px 22% 6px 22%;
+	}
+	.contact .contact-right-content .contact-right-content-form input {
+		margin: 10px 0 8px 0;
+	}
+	.contact .contact-right-content a {
+		font-size: 11px;
+		padding: 8px 30px;
+	}
+
+
+
+	/*-------------footer responsive css--------------------*/
+
+	.footer .footer-left-area{
+		text-align: center;
+	}
+	.footer .footer-left-area ul li {
+		display: inline;
+		float: none;
+
+	}
+	.footer .mobile-responsive {
+		text-align: center !important;
+	}
+}
+@media (max-width: 500px){
+	.bannar-img{
+		display: none;
+	}
+	#about {
+		padding: 150px 0;
+	}
+}
